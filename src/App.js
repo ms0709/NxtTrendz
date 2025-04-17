@@ -14,7 +14,22 @@ import './App.css'
 
 class App extends Component {
   state = {
-    cartList: [],
+    cartList: [
+      // {
+      //   availability: 'In Stock',
+      //   brand: 'LEGO',
+      //   description:
+      //     'Collect all mystery mini-figures in the new series 11 and grow your LEGO Minifigure Collection. Each mini-figure comes in a sealed “mystery” bag with its accessories, display plate, and collector’s booklet. Only 1 of 16 individual mini-figures will be available in each “mystery” bag.',
+      //   id: 1002,
+      //   imageUrl:
+      //     'https://assets.ccbp.in/frontend/react-js/ecommerce/toys-people-toys.png',
+      //   price: 760,
+      //   quantity: 1,
+      //   rating: 3.9,
+      //   title: 'Minifigures',
+      //   totalReviews: 5463,
+      // },
+    ],
   }
 
   removeAllCartItems = () => {

@@ -34,3 +34,37 @@ p {
   font-size: 16px;
   margin: 10px 0px;
 }
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.popup-close-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* align-self: flex-end; */
+}
+
+.popup-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.popup-heading {
+  color: #3e4c59;
+  margin: 0px;
+  /* align-self: flex-start; */
+}
+
+.popup-line {
+  width: 100%;
+  color: #3e4c59;
+  margin-bottom: 20px;
+}
